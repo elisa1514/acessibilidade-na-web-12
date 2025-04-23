@@ -2,10 +2,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Lemon&display=swap');
 
 :root {
-    --laranja-claro: #FF862A;
-    --alto-contraste-fundo: #000000;
-    --alto-contraste-texto: #ffffff;
-    --alto-contraste-link: #ffd700;
+    --laranja-claro: #5e68ee;
+    --alto-contraste-fundo: #141414;
+    --alto-contraste-texto: #c07ba3;
+    --alto-contraste-link: #a365b3b9;
 }
 
 body {
@@ -14,18 +14,18 @@ body {
 }
 
 header {
-    background-color: #ffffff;
+    background-color: #e9a18f;
 }
 
 
 section {
-    padding-bottom: 5rem;
+    padding-bottom: 7rem;
 }
 
 
 .nav-link {
-    color: #CB6D43;
-    font-weight: 600;
+    color: #db709d;
+    font-weight: 800;
 }
 
 .inicio-fundo {
@@ -45,8 +45,8 @@ section {
 .img-inicio {
     position: absolute;
     right: 0;
-    top: 18rem;
-    width: 45rem;
+    top: 19rem;
+    width: 48rem;
     height: auto;
 }
 
@@ -63,7 +63,7 @@ section {
     background-color: var(--laranja-claro);
     border-radius: 30px;
     border: none;
-    width: 14em;
+    width: 16em;
     height: 3em;
     align-content: center;
 
@@ -103,7 +103,7 @@ h2 {
 }
 
 #galeria {
-    background-color: #FAF4F4;
+    background-color: #b4b2b2;
 
 }
 
@@ -113,7 +113,7 @@ h2 {
 }
 
 #contato {
-    background-image: url('img/4965007.jpg');
+    background-image: url('img/fundo-tropical-com-tucano-e-folhas-exoticas_1361-1497.webp');
     background-size: cover;
     padding: 4rem 0;
     /* Espaçamento interno para a seção de contato */
@@ -122,7 +122,7 @@ h2 {
 
 .formulario {
     background-color: #ffffff;
-    padding: 2rem;
+    padding: 3rem;
     /* Espaçamento interno dentro do formulário */
     border-radius: 10px;
     /* Borda arredondada para o formulário */
@@ -132,17 +132,17 @@ h2 {
 }
 
 .formulario button {
-    background-color: #CB6D43;
+    background-color: #dab5f3;
     border: none;
     font-weight: bold;
 }
 
 .form-control {
-    background-color: #F1EDEF;
+    background-color: #c2d6fc;
 }
 .menu-acessibilidade{
     position: fixed;
-    top:2rem;
+    top:4rem;
     right:20px;
     z-index: 1000;
 }
